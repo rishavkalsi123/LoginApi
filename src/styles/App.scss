@@ -1,0 +1,26 @@
+.form-control {
+  &:focus {
+    box-shadow: none;
+  }
+}
+.loginPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  h1 {
+    margin-bottom: 1rem;
+  }
+  .login_inner {
+    width: 90%;
+    max-width: 600px;
+  }
+  .toast {
+    color: #fff;
+    background: #ff8484;
+    .toast-header {
+      color: #fff;
+      background: transparent;
+    }
+  }
+}
